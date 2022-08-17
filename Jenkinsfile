@@ -1,7 +1,9 @@
 
 pipeline{
     agent any
-    
+    options{
+     quietPeriod(120)
+    }
     stages{
         stage('git checkout')
         {
