@@ -2,7 +2,7 @@
 pipeline{
     agent any
      options {
-    quietPeriod(130)
+    quietPeriod(120)
     // more options
   }
     stages{
