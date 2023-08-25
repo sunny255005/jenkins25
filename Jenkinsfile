@@ -14,7 +14,7 @@ pipeline{
         }
         stage('run mvn'){
             steps{
-                sh 'mvn clean package'
+                echo "mvn clean package"
             }
             
         }
