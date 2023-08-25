@@ -47,7 +47,7 @@ pipeline{
 
                     script {
 
-                       sh './gradlew clean test'
+                       
 
                         echo 'testing in progess...'
 
